@@ -53,7 +53,7 @@ header, footer, main {display: block;}
     margin: 0%;
     padding: 0%;
     font-family: exfont;
-    font-size: 120%;
+    font-size: 118%;
     cursor: default;
     color: #222;
 }
@@ -68,6 +68,26 @@ body {
 @font-face {
 	font-family: 'exfont'; 
 	src: url(extrafont.ttf);
+}
+
+.substain {
+  background-image: url(fone2.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.antimat {
+  background-image: url(fone3.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.antimat .hr-header-block-1  {
+  background-color:rgb(246, 133, 133)
+}
+
+.substain .hr-header-block-1  {
+  background-color:rgb(99, 231, 244)
 }
 
 /* Части Сайта */
@@ -85,7 +105,6 @@ footer {
     margin-top: auto;
     background-color: #708577;
     padding: 2% 2% 2% 3%;
-    margin-top: 2%;
     line-height: 170%;
 }
 
@@ -103,9 +122,9 @@ footer {
 /* Первичные Блоки */
 
 .block-1 {
-    background-color: #708577;
-    margin: 3vh 0vh;
-    padding: 3%;
+  background-color: #708577;
+  margin: 3vh 0vh;
+  padding: 3%;
 }
 
 .mess {
@@ -117,6 +136,14 @@ footer {
   max-width: 80%;
   width: fit-content;
   margin: 0 auto;
+}
+
+.hr-header-block-1 {
+  color: #7a8a7e;
+  min-height: 1.3vh;
+  background-color: #4b6451;
+  border: 0px;
+  border-radius: 0px;
 }
 
 /* Таблицы */
